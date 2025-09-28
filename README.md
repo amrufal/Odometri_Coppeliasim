@@ -58,9 +58,6 @@ Program ini menghitung posisi dan orientasi robot berdasarkan data kecepatan rod
 3. **Menjalankan Simulasi**
    - Buka CoppeliaSim → muat scene Pioneer P3DX.
    - Jalankan program Python:
-     ```bash
-     python odo_p3dx.py
-     ```
    - Program otomatis akan:
      - Menghubungkan ke CoppeliaSim.
      - Memulai simulasi.
@@ -86,5 +83,5 @@ Program ini berhasil:
 - Membaca ground truth dari simulasi dan membandingkannya dengan hasil odometri.
 - Menampilkan visualisasi grafik serta metrik error kuantitatif.  
 
-Secara keseluruhan, program telah berfungsi dengan baik untuk **analisis performa odometri pada robot Pioneer P3DX** dalam simulasi CoppeliaSim :contentReference[oaicite:5]{index=5}.
+Secara keseluruhan, program telah berfungsi dengan baik untuk **analisis performa odometri pada robot Pioneer P3DX** dalam simulasi CoppeliaSim
 
